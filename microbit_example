@@ -1,1 +1,12 @@
 
+basic.showLeds(`
+    . . # . .
+    . # # . .
+    . # # . #
+    . # . . .
+    # . . # .
+    `)
+basic.forever(function () {
+    basic.showNumber(69)
+    radio.sendString("7")
+})
